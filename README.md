@@ -37,3 +37,5 @@ Limitations of the website :
 6) There are a lot of processes being run in the background, the application requires to have a decent internet connection. The time taken to load the page would depend on the connection.
 
 7) The browsing experience is the best in chrome as the other browsers might not support all animations and transitions.
+
+8) The application is deployed in heroku, where the php mail server is not supported. So the form functionality is removed.
