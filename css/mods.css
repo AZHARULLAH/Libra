@@ -1,0 +1,225 @@
+body
+{
+    font-family: Gabriola, cursive;
+    background-color: lightgray;
+    background-size: cover;
+}
+
+#sticky 
+{
+    width: 100%;
+    color: #fff;
+    font-size: 2em;
+    border-radius: 0.5ex;
+}
+
+#sticky.stick 
+{
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    border-radius: 0 0 0.5em 0.5em;
+    margin-left: 12%;
+    transition: margin-left 0.5s ease;
+}
+
+#sticky
+{
+    width: 50% !important;
+    /*float: left;*/
+    margin-left: 25%;
+    transition: margin-left 0.5s ease;
+}
+
+#header_menu li
+{
+    font-weight: bold;
+}
+
+#header_top
+{
+    position: fixed;
+    top: 0%;
+    padding-top: 1%;
+    z-index: 100;
+    color: black;
+    width: 100%;
+    background-size: 100% 64px;
+}
+
+#header_top ul
+{
+    list-style-type: none;
+}
+
+#header_menu li
+{
+    display: inline;
+}
+
+.header_buttons
+{
+    line-height: 30px;
+    font-size: 25px;
+    float: right;
+    right: 0%;
+    color: black;
+    margin: -1% 1% 1% 1%;
+    padding: 9px 9px 9px 9px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    z-index: 10000;
+}
+
+#header_top.background
+{
+    background-color: white;
+}
+
+#sticky-anchor
+{
+    margin-top: 5%;
+}
+
+#title p img
+{
+    width: 150px;
+    vertical-align: middle;
+}
+
+#title
+{
+    /*position: absolute;*/
+    margin-top: 15%;
+    text-align: center !important;
+    color: #00695c;
+    font-size: 70px;
+    font-family: Gabriola, cursive;
+    font-weight: bold;
+}
+
+#extrainfo
+{
+    text-align: center !important;
+    margin-top: 2%;
+    opacity: 0.8;
+    font-size: 20px;
+    color: green;
+    left: 60%;
+    margin-bottom: 20%;
+}
+
+#whydiv
+{
+    margin-top: 2%;
+    background-color: lightgray;
+    font-family: Gabriola, cursive;
+    font-weight: bold;
+}
+
+#whybody div
+{
+    width: 33%;
+    float: left;
+    text-align: center;
+    background-color: lightgray;
+    font-size: 30px;
+}
+
+#howdiv
+{
+    margin-top: 2%;
+    background-color: lightgray;
+    font-family: Gabriola, cursive;
+    font-weight: bold;
+    margin-bottom: 30%;
+}
+
+#howbody div
+{
+    width: 33%;
+    float: left;
+    text-align: center;
+    background-color: lightgray;
+    font-size: 30px;
+}
+
+#whybody div:hover, #howbody div:hover
+{   
+    border: 2px solid #00695c;
+}
+
+.clear
+{
+    clear: both;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+#contact
+{
+    background-color: white;
+    padding: 2% 2% 2% 2%;
+}
+
+#toppage
+{
+    background-color: white; 
+    padding: 2% 2% 2% 0%;
+}
+
+nav
+{
+    background-color: #00695c !important;
+}
+
+.hvr-underline-from-center:before
+{
+    background: #00695c !important;
+}
+
+#contact h1
+{
+    color: #00695c;
+}
