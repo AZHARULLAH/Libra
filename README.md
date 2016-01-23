@@ -39,3 +39,5 @@ Limitations of the website :
 7) The browsing experience is the best in chrome as the other browsers might not support all animations and transitions.
 
 8) The application is deployed in heroku, where the php mail server is not supported. So the form functionality is removed.
+
+9) In the deals page, the banners are loaded from the Amazon and Infibeam servers. In the browser, "Adblock" extension needs to be disabled in order to get these banners.
