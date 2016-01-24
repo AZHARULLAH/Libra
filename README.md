@@ -1,3 +1,5 @@
+The application is hosted @ http://libra0.herokuapp.com and http://www.azharullah.byethost7.com
+
 Libra is one place online destination where you can compare price deals of a product from different online shopping sites and buy them directly. At present Libra supports comparision of a product from only Amazon and Flipkart. This is under development and when complete we can compare any two or more online shopping sites. This website is developed mainly as a project to qualify SV.CO application process.
 
 The core of the website lies in the optimal and efficient use of the API's provided by various e-commerce sites. The uniqueness of the website lies in the fact that there is no database being used to store anything. Everything is being fetched on demand from the servers as and when required. The selected product is fetched and matched with products from other websites using a efficient and accurate algorithm. Even the brands and price for a search results are not hard-coded, but are dynamically extracted from the data sent by the servers on demand.
