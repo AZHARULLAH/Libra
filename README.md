@@ -1,4 +1,4 @@
-The application is hosted @ http://libra0.herokuapp.com and http://www.azharullah.byethost7.com
+The application is hosted @ http://libra0.herokuapp.com
 
 Libra is one place online destination where you can compare price deals of a product from different online shopping sites and buy them directly. At present Libra supports comparision of a product from only Amazon and Flipkart. This is under development and when complete we can compare any two or more online shopping sites. This website is developed mainly as a project to qualify SV.CO application process.
 
